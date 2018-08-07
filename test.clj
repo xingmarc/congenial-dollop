@@ -6,3 +6,7 @@
   (filter #(= 3 (count %)) words))
 (print
   (map #(count %) words))
+
+(defn f [n1, n2] (str "Hello, " n1, n2))
+(print
+  (f 1 2))
